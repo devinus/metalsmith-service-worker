@@ -19,7 +19,8 @@ metalsmith.use(serviceWorker(options));
 
 ## Options
 
-| Name        | Default                     |
-|-------------|-----------------------------|
-| `cacheName` | `metalsmith-service-worker` |
-| `fileName`  | `service-worker.js`         |
+| Name               | Default                          |
+|--------------------|----------------------------------|
+| `cacheName`        | `metalsmith-service-worker`      |
+| `workerFile`       | `service-worker.js`              |
+| `registrationFile` | `service-worker-registration.js` |
